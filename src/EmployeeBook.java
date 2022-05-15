@@ -103,8 +103,10 @@ public class EmployeeBook {
     public int ifEqual (double salary) {
         int person = 0;
         for (int i = 0; i < employeeArray.length; i++) {
-            if (employeeArray[i].getSalary() == salary) {
-                ++person;
+            if (employeeArray[i] != null) {
+                if (employeeArray[i].getSalary() == salary) {
+                    ++person;
+                }
             }
         }
         return person;

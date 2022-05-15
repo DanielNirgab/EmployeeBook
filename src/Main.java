@@ -34,5 +34,6 @@ public class Main {
         employeeBook.changeSalary("Ivan Petrov Andreevich", 27750);
         employeeBook.findEmployeeFullName("Ivan Petrov Andreevich");
 
+        employeeBook.findEmployeeWithMaxSalary();
     }
 }
